@@ -1,6 +1,7 @@
 <!doctype html>
 {% load static %}
 {% load thumbnail %}
+{% load bootstrap4 %}
 <html class="no-js" lang="zxx">
 
 <head>
@@ -136,161 +137,160 @@
     </div>
     <div class="bottom header__bottom header__bottom--border header-bottom-three">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-10 offset-xl-1 text-center">
-                    <div class="main-menu">
-                        <nav id="mobile-menu">
-                            <ul>
-                                <li class="dropdown-icon">
-                                    <a href="index.html">Home</a>
-                                    <ul class="submenu">
-                                        <li>
-                                            <a href="index.html">Home Furniture</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-2.html">Home Electronics</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-3.html">Home Fashion</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="about.html">About Us</a>
-                                </li>
-                                <li class="mega-menu static dropdown-icon">
-                                    <a href="shop.html">Shop</a>
-                                    <ul class="submenu mega-full">
-                                        <li>
-                                            <a href="shop.html">Category 01</a>
-                                            <ul class="submenu  level-1">
-                                                <li>
-                                                    <a href="shop.html">Furniture</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Fasion</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Bags</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Lather</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="shop.html">Category 02</a>
-                                            <ul class="submenu  level-1">
-                                                <li>
-                                                    <a href="shop.html">Electronics</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Chair</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Table</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Book</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="shop.html">Category 03</a>
-                                            <ul class="submenu">
-                                                <li>
-                                                    <a href="shop.html">Clock</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Watch</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Mobile</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">sunglass</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="shop.html">Category 04</a>
-                                            <ul class="submenu">
-                                                <li>
-                                                    <a href="shop.html">Chair</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Lather</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Table</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Clock</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="shop.html">Furniture <span class="offer2 new">New</span></a>
-                                </li>
-                                <li class="dropdown-icon">
-                                    <a href="#">Pages</a>
-                                    <ul class="submenu">
-                                        <li>
-                                            <a href="about.html">About</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">Contact</a>
-                                        </li>
-                                        <li>
-                                            <a href="product-details.html">Product Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="product-details2.html">Product Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="registration.html">Register</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-cat-three.html">Shop Category 03</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-collection.html">Shop Category 01</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-left-sidebar.html">Shop Left Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-right-sidebar.html">Shop Right Sidebar</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="shop.html">Top Product</a>
-                                </li>
-                                <li>
-                                    <a href="shop.html">Trending <span class="offer2">Hot</span></a>
-                                </li>
-                                <li class="dropdown-icon">
-                                    <a href="blog.html">Blog</a>
-                                    <ul class="submenu  level-1">
-                                        <li>
-                                            <a href="blog.html">Blog</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-sidebar.html">Blog Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details.html">Blog Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
 
-                        </nav>
-                    </div>
-                </div>
+{#            <div class="row">#}
+{#                <div class="col-xl-10 offset-xl-1 text-center">#}
+{#                    <div class="main-menu">#}
+{#                        <nav id="mobile-menu">#}
+{#                            <ul>#}
+{#                                <li class="dropdown-icon">#}
+{#                                    <a href="index.html">Home</a>#}
+{#                                    <ul class="submenu">#}
+{#                                        <li>#}
+{#                                            {% for prod in products %}#}
+{#                                            <a href="index.html">{{ prod.category }}</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="index-2.html">Home Electronics</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="index-3.html">Home Fashion</a>#}
+{#                                        </li>#}
+{#                                    </ul>#}
+{#                                </li>#}
+{#                                <li class="mega-menu static dropdown-icon">#}
+{#                                    <a href="shop.html">Shop</a>#}
+{#                                    <ul class="submenu mega-full">#}
+{#                                        <li>#}
+{#                                            <a href="shop.html">Category 01</a>#}
+{#                                            <ul class="submenu  level-1">#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">hah</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Fasion</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Bags</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Lather</a>#}
+{#                                                </li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="shop.html">Category 02</a>#}
+{#                                            <ul class="submenu  level-1">#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Electronics</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Chair</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Table</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Book</a>#}
+{#                                                </li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="shop.html">Category 03</a>#}
+{#                                            <ul class="submenu">#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Clock</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Watch</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Mobile</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">sunglass</a>#}
+{#                                                </li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="shop.html">Category 04</a>#}
+{#                                            <ul class="submenu">#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Chair</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Lather</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Table</a>#}
+{#                                                </li>#}
+{#                                                <li>#}
+{#                                                    <a href="shop.html">Clock</a>#}
+{#                                                </li>#}
+{#                                            </ul>#}
+{#                                        </li>#}
+{#                                    </ul>#}
+{#                                </li>#}
+{#                                <li>#}
+{#                                    <a href="shop.html">Bricks <span class="offer2 new">Most Popular</span></a>#}
+{#                                </li>#}
+{#                                <li class="dropdown-icon">#}
+{#                                    <a href="#">Кровля</a>#}
+{#                                    <ul class="submenu">#}
+{#                                        <li>#}
+{#                                            <a href="about.html">Гибкая черепица</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="contact.html">Ондулин</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="product-details.html">Металлочерепица</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="product-details2.html">Шифер</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="registration.html">Register</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="shop-cat-three.html">Shop Category 03</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="shop-collection.html">Shop Category 01</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="shop-left-sidebar.html">Shop Left Sidebar</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="shop-right-sidebar.html">Shop Right Sidebar</a>#}
+{#                                        </li>#}
+{#                                    </ul>#}
+{#                                </li>#}
+{#                                <li>#}
+{#                                    <a href="shop.html">Top Product</a>#}
+{#                                </li>#}
+{#                                <li>#}
+{#                                    <a href="shop.html">Trending <span class="offer2">Hot</span></a>#}
+{#                                </li>#}
+{#                                <li class="dropdown-icon">#}
+{#                                    <a href="blog.html">Blog</a>#}
+{#                                    <ul class="submenu  level-1">#}
+{#                                        <li>#}
+{#                                            <a href="blog.html">Blog</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="blog-sidebar.html">Blog Sidebar</a>#}
+{#                                        </li>#}
+{#                                        <li>#}
+{#                                            <a href="blog-details.html">Blog Details</a>#}
+{#                                        </li>#}
+{#                                    </ul>#}
+{#                                </li>#}
+{#                            </ul>#}
+{##}
+{#                        </nav>#}
+{#                    </div>#}
+{#                </div>#}
                 <div class="col-12">
                     <div class="mobile-menu"></div>
                 </div>
@@ -306,245 +306,130 @@
     <!-- shop area start -->
     <div class="product shop-page pt-80 pb-80 fix">
         <div class="container">
-            <div class="border-b">
-                <div class="row">
-                    <div class="col-lg-5 col-md-4">
-                        <div class="shop-bar d-flex align-items-center">
-                            <h4 class="f-800 cod__black-color">Shop</h4>
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Blog.</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-8">
-                        <div class="bar-wrapper">
-                            <div class="select-text">
-                                <span>Showing 1–11 of 23 Results</span>
-                            </div>
-                            <div class="shop-select">
-                                <select name="select" id="shop-select-one">
-                                    <option value="1">Deafult Sorting</option>
-                                    <option value="2">Deafult Sorting</option>
-                                    <option value="3">Deafult Sorting</option>
-                                    <option value="4">Deafult Sorting</option>
-                                </select>
-                            </div>
-                            <div class="shop-select">
-                                <select name="select" id="shop-select-two">
-                                    <option value="1">Categories</option>
-                                    <option value="2">Categories 01</option>
-                                    <option value="3">Categories 02</option>
-                                    <option value="4">Categories 03</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{#            <div class="border-b">#}
+{#                <div class="row">#}
+{#                    <div class="col-lg-5 col-md-4">#}
+{#                        <div class="shop-bar d-flex align-items-center">#}
+{#                            <h4 class="f-800 cod__black-color">Shop</h4>#}
+{#                            <nav aria-label="breadcrumb">#}
+{#                                <ol class="breadcrumb">#}
+{#                                    <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>#}
+{#                                    <li class="breadcrumb-item active" aria-current="page">Blog.</li>#}
+{#                                </ol>#}
+{#                            </nav>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    <div class="col-lg-7 col-md-8">#}
+{#                        <div class="bar-wrapper">#}
+{#                            <div class="select-text">#}
+{#                                <span>Showing 1–11 of 23 Results</span>#}
+{#                            </div>#}
+{#                            <div class="shop-select">#}
+{#                                <select name="select" id="shop-select-one">#}
+{#                                    <option value="1">Deafult Sorting</option>#}
+{#                                    <option value="2">Deafult Sorting</option>#}
+{#                                    <option value="3">Deafult Sorting</option>#}
+{#                                    <option value="4">Deafult Sorting</option>#}
+{#                                </select>#}
+{#                            </div>#}
+{#                            <div class="shop-select">#}
+{#                                <select name="select" id="shop-select-two">#}
+{#                                    <option value="1">Categories</option>#}
+{#                                    <option value="2">Categories 01</option>#}
+{#                                    <option value="3">Categories 02</option>#}
+{#                                    <option value="4">Categories 03</option>#}
+{#                                </select>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
             <div class="row mt-30">
-                {% for prod in products %}
-                <div class="col-sm-3">
-                    <div class="product__active owl-carousel1">
-                        <div class="product__single">
-                            <div class="product__box">
-                                <div class="product__thumb">
-                                    <a href="product-details.html" class="img-wrapper1">
-                                        <img src="{{ prod.image|thumbnail_url:'small' }}" alt="">
-                                        <!-- <img class="img secondary-img" src="img/allproducts/products__thumb__08.jpg" alt=""> -->
-                                    </a>
-                                </div>
-                                <div class="product__content--top">
-                                    <span class="cate-name">{{ prod.category }}</span>
-                                    <h6 class="product__title mine__shaft-color f-700 mb-0"><a
-                                            href="product-details.html">{{ prod.title }}
+{% for prod in products %}
+                    <div class="col-sm-3">
+                        <div class="product__active owl-carousel1">
+                            <div class="product__single">
+                                <div class="product__box">
+                                    <div class="product__thumb">
+                                        <a href="{% url 'product_detail' prod.id %}" class="img-wrapper1">
+                                            <img src="{{ prod.image|thumbnail_url:'small' }}" alt="">
+                                            <!-- <img class="img secondary-img" src="img/allproducts/products__thumb__08.jpg" alt=""> -->
+                                        </a>
+                                    </div>
+                                    <div class="product__content--top">
+                                        <span class="cate-name">{{ prod.category }}</span>
+                                        <h6 class="product__title mine__shaft-color f-700 mb-0"><a
+                                                href="{% url 'product_detail' prod.id %}">{{ prod.title }}
                                         </a></h6>
+                                    </div>
+                                    <div class="product__content--rating d-flex justify-content-between">
+                                        <div class="rating">
+                                            <ul class="list-inline">
+                                                <li class="rating-active"><i class="fas fa-star"></i></li>
+                                                <li class="rating-active"><i class="fas fa-star"></i></li>
+                                                <li class="rating-active"><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <h5 class="grenadier-color f-600">{{ prod.price.sum }}</h5>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="product__content--rating d-flex justify-content-between">
-                                    <div class="rating">
-                                        <ul class="list-inline">
-                                            <li class="rating-active"><i class="fas fa-star"></i></li>
-                                            <li class="rating-active"><i class="fas fa-star"></i></li>
-                                            <li class="rating-active"><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price">
-                                        <h5 class="grenadier-color f-600">{{ prod.price.sum }}</h5>
-                                    </div>
+                                <div class="product-action">
+                                    {#                                <a href="#"><span class="lnr lnr-heart"></span></a>#}
+                                    {#                                <a href="#"><span class="lnr lnr-eye"></span></a>#}
+{#                                    <a href="#"><span class="lnr lnr-cart"></span></a>#}
+                                    {#                                <a href="#"><span class="lnr lnr-sync"></span></a>#}
                                 </div>
                             </div>
-                            <div class="product-action">
-                                <a href="#"><span class="lnr lnr-heart"></span></a>
-                                <a href="#"><span class="lnr lnr-eye"></span></a>
-                                <a href="#"><span class="lnr lnr-cart"></span></a>
-                                <a href="#"><span class="lnr lnr-sync"></span></a>
-                            </div>
+
                         </div>
-
                     </div>
-                </div>
                 {% endfor %}
-
-
 
 
             </div>
         </div>
+    {% if page_obj.has_other_pages %}
         <div class="row mt-20">
             <div class="col-sm-12">
+
                 <div class="common-pagination">
                     <nav aria-label="Page navigation example">
-                        <ul class="pagination">
-                            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i>
-                                Prev</a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#">Next <i class="fas fa-angle-right"></i></a>
-                            </li>
-                        </ul>
+                        {% bootstrap_pagination page_obj %}
+{#                        <ul class="pagination">#}
+{#                            {% if page_obj.has_previous %}#}
+{#                            <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}"><i class="fas fa-angle-left"></i>#}
+{#                                Prev</a></li>#}
+{#                            {% endif %}#}
+{##}
+{#                            <li class="page-item"><a class="page-link" href="#">1</a></li>#}
+{#                            <li class="page-item"><a class="page-link" href="#">2</a></li>#}
+{#                            <li class="page-item"><a class="page-link" href="#">3</a></li>#}
+{#                            <li class="page-item"><a class="page-link" href="#">4</a></li>#}
+{#                            <li class="page-item"><a class="page-link" href="#">Next <i class="fas fa-angle-right"></i></a>#}
+{#                            </li>#}
+{#                        </ul>#}
                     </nav>
                 </div>
             </div>
         </div>
+    {% endif %}
     </div>
-    </div>
+{#    </div>#}
     <!-- shop area end -->
 
     <!-- Subscribe -->
-    <div class="subscribe subscribe--area grenadier-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="newsletter newsletter--box d-flex justify-content-between align-items-center pos-rel">
-                        <div class="left d-flex justify-content-between align-items-center">
-                            <div class="newsletter__title">
-                                <span class="notification--icon"><img src="img/icon/notification-icon.png"
-                                                                      alt="notification"></span>
-                                <span class="notification__title--heading f-800 white-color">Subscribe for Join Us!</span>
-                            </div>
-                            <div class="newsletter--message d-none d-xl-block">
-                                <p class="newsletter__message__title mb-0">.... & receive $20 coupne for first Shopping
-                                    &
-                                    free delivery.</p>
-                            </div>
-                        </div>
-                        <form class="right newsletter--form pos-rel">
-                            <input class="newsletter--input" type="text" placeholder="Enter Your Email Address ...">
-                            <button class="btn newsletter--button" type="button"><img src="img/icon/plan-icon.png"
-                                                                                      alt=""></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Subscribe End -->
 
 </main>
 <!-- Main End -->
 
 <!-- Footer -->
-<footer class="footer--area">
-    <div class="footer--top pt-70 pb-25">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-8 mb-30">
-                    <div class="footer-widget">
-                        <div class="footer-title">
-                            <h6 class="f-800">Contact Information</h6>
-                        </div>
-                        <div class="contacts-address">
-                            <div class="contacts-icon">
-                                <i class="icofont-headphone-alt-3"></i>
-                            </div>
-                            <div class="contacts-address--text">
-                                <span>Got Questions? Call Us 24/7</span>
-                                <h5 class="f-800">1800 665 222 / 1800 555 200</h5>
-                            </div>
-                        </div>
-                        <div class="contacts-address--footer">
-                            <p>502 New Design Str, Melbourne, Australia <a href="mailto:contact@martfury.co">contact@martfury.co</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-8 mb-30 order-md-3 order-lg-2">
-                    <div class="footer-widget">
-                        <div class="footer-title">
-                            <h6 class="f-800">Get to Know Us</h6>
-                        </div>
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Press Releases</a></li>
-                                <li><a href="#">Cart Cares</a></li>
-                                <li><a href="#">Gift a Smile</a></li>
-                                <li><a href="#">Your Account</a></li>
-                                <li><a href="#">Returns Center</a></li>
-                                <li><a href="#">100% Purchase Protection</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 mb-30 col-lg-6 col-md-4 order-md-2 order-lg-3 col-sm-6">
-                    <div class="footer-widget">
-                        <div class="footer-title">
-                            <h6 class="f-800">Get to Know Us</h6>
-                        </div>
-                        <div class="footer-menu h1foote-menu2">
-                            <ul>
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Instagram</a></li>
-                                <li><a href="#">Youtube</a></li>
-                                <li><a href="#">Pintrest</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-6 col-md-4 mb-30 order-md-4 order-lg-4 col-sm-6">
-                    <div class="footer-widget">
-                        <div class="footer-title">
-                            <h6 class="f-800">Let Us Help You</h6>
-                        </div>
-                        <div class="footer-menu h1foote-menu2">
-                            <ul>
-                                <li><a href="#">Your Account</a></li>
-                                <li><a href="#">Returns Centre</a></li>
-                                <li><a href="#">100% Purchase Protection</a></li>
-                                <li><a href="#">Cartbit App Download</a></li>
-                                <li><a href="#">Help</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom gray-bg pt-20 pb-20">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="footer-copyright">
-                        <p class="m-0">Copyright 2020 ShopMax.com All Rights Reserved.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="footer-payment--sponsors text-right">
-                        <a href="#" class="payment-images"><img src="img/payment/payment-thumb.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+
 <!-- Footer End -->
 
 
